@@ -19,6 +19,7 @@ highlight_theme = "zenburn"
 [extra]
 email = "298mtxjd@anonaddy.me"
 avatar = "img/avatar.webp"
+posts_to_show = 3
 images_default_size = 720
 images_sizes = [300, 600]
 header_items = [
