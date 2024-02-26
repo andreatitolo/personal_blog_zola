@@ -1,0 +1,49 @@
+[build]
+publish = "public"
+command = "zola build"
+
+[build.environment]
+ZOLA_VERSION = "0.18.0"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "deny"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    Strict-Transport-Security = '''
+      max-age=31536000;
+      includeSubDomains;
+      preload
+    '''
+    Content-Security-Policy = '''
+      default-src 'self' https://*.testing-zola1.netlify.app;
+      style-src 'self' https://*.testing-zola1.netlify.app 'unsafe-inline' data:;
+      img-src 'self' https://*.testing-zola1.netlify.app 'unsafe-inline' data:;
+      script-src 'self' https://*.testing-zola1.netlify.app 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net cdnjs.cloudflare.com cdn.mathjax.org;
+      frame-src 'self' https://*.testing-zola1.netlify.app;
+	    connect-src 'self' https://*.testing-zola1.netlify.app;
+	    base-uri 'self' https://*.testing-zola1.netlify.app;
+	    form-action 'self' https://*.testing-zola1.netlify.app;
+      font-src 'self' data:
+    '''
+    Permissions-Policy = '''
+      accelerometer=(),
+      ambient-light-sensor=(),
+      autoplay=(),
+      camera=(),
+      encrypted-media=(),
+      fullscreen=(),
+      geolocation=(),
+      gyroscope=(),
+      magnetometer=(),
+      microphone=(),
+      midi=(),
+      payment=(),
+      picture-in-picture=(),
+      speaker=(),
+      usb=(),
+      vibrate=(),
+      vr=()
+    '''
