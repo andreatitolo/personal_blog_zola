@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{# Override the header to avoid build fails due to zola being unable to know the current path of a 404 page #}
+{# see https://www.getzola.org/documentation/templates/overview/ #}
+  {% block header %}
+  <header>
+    <div class="header-container">
+      <nav class="menu">
+          <ul class="nav">
+              {% set menu_items = config.extra.header_items -%}
+              {% for item in menu_items -%}
+              <li class="nav-item">
+                  <a href="{{ config.base_url ~ item.url  }}">{{ item.name }}</a>
+              </li>
+              {% endfor -%}
+          </ul>
+      </nav>
+    </div>
+  </header>
+  {% endblock %}
+
+{% block content %}
+
+<h1>Page Not Found</h1>
+
+<p>Go <a href="/">home</a>.</p>
+
+{% endblock content %}
+
+{% block footer %}
+  <footer>
+    <div class="header-container">
+        <nav class="menu">
+            <ul class="nav">
+                {% set menu_items = config.extra.footer_items -%}
+                {% for item in menu_items -%}
+                <li class="nav-item">
+                    <a href="{{ config.base_url ~ item.url  }}" >{{ item.name }}
+                    </a>
+                </li>
+                {% endfor -%}
+            </ul>
+        </nav>
+    </div>
+</footer>
+{% endblock %}

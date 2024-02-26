@@ -1,0 +1,43 @@
+{# Code from https://gitlab.com/crepererum/blog #}
+{% set abspath = "./" ~ page.path ~ src  %}
+{% set meta = get_image_metadata(path=abspath) %}
+{% set width = meta.width %}
+{% set srcset_list = [] %}
+{% set sizes_list = [] %}
+{% if  meta.caption %}
+    {% set caption = meta.caption %}
+{% endif %}
+{% if  meta.loading %}
+    {% set loading = meta.loading %}
+{% endif %}
+
+{% for s in config.extra.images_sizes %}
+    {% if width >= s %}
+        {% set resized = resize_image(path=abspath, width=s, op="fit_width") %}
+
+        {% set element = resized.url ~ " " ~ s ~ "w" %}
+        {% set_global srcset_list = srcset_list | concat(with=[element]) %}
+
+        {% set size = "(max-width: " ~ s ~ "px) " ~ s ~ "px" %}
+        {% set_global sizes_list = sizes_list | concat(with=[size]) %}
+    {% endif %}
+{% endfor %}
+
+{% set default_resized = resize_image(path=abspath, width=config.extra.images_default_size, op="fit_width") %}
+
+<figure>
+    <img
+        alt="{{ alt }}"
+        height="{{ default_resized.height }}"
+        width="{{ default_resized.width }}"
+        src="{{ default_resized.url | safe }}"
+        srcset="{{ srcset_list | join(sep=", ") | safe }}"
+        sizes="{{ sizes_list | join(sep=", ") | safe }}"
+        decoding="async"
+        {% if loading is defined %}loading="{{ loading }}" {% else %} loading="lazy" {% endif %}
+        {% if class is defined %}class="{{ class }}"{% endif %}
+    >
+    {% if caption is defined %}
+    <figcaption>{{ caption }}</figcaption>
+    {% endif %}
+</figure>

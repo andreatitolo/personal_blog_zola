@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <h1>Tagged "{{ term.name }}"</h1>
+    {% for page in term.pages %}
+        <ul class="taxonomy">
+            <li class="taxonomy-item">
+                <time class="taxonomy-item-time" datetime="{{ page.date | date(format="%F") }}"=>{{ page.date | date(format="%F") }}</time>
+                <a href="{{ page.permalink }}" class="taxonomy-item-title">{{ page.title }}</a>
+                </li>
+        </ul>
+    {% endfor %}
+{% endblock content %}

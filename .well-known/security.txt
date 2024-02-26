@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Policy: If any vulnerabilities are found related to site code or configuration, please contact me.
+
+Contact: https://archaeo.social/@andreatitolo
+Contact: mailto:mail@andreatitolo.com
+
+Encryption: https://archaeoramblings.com/files/pubkey.txt
+
+Preferred-Languages: en, it
+
+Canonical: https://archaeoramblings.com/.well-known/security.txt
+
+Expires: 2025-01-28T21:59:00.000Z
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCAAdFiEEDNUXofhH+8T45WCg9Imqc4NhgTcFAmXcRucACgkQ9Imqc4Nh
+gTfj1AwAiR4CUvfdu/WI+tyAWMxUTH0IfRhXxnWw4bfpUqrk/dTMGxRy9+3X/TtP
+EwOSpF7XaXHWY9y6ZCHfITFdQ93Q5cREL0spaKWPG8pjWoVvPHzkOJsgFfclc+2P
+roqx0/hpT0vPblkvHvzq857q6pWggiiBOKm+HxF184hSN3HpqK3bZ/PFxdJ5JNya
+WpBdED38xvqEtys7FQZnSZO0uGYI7navgf5mCE4u5JuewopThSx0ihUpHin12Zyt
+zXNp9cakdRshKN2dWCBYpLJyrK7QpTnKtX0uzmP0g0+gLzESmZycTgsq2E7XEwpU
+8MfkYl09u5lY2QhOzNSigm5257bpxDdLz6h0t0FBLcSxAT2t9r8QLxdcHSlesOFz
+2recHff+spnUYvm3+NE5DJJXdGtK7pCY5dOTHW/ehFt6p0eCr6TypPtb/LDYRguD
+vZUQfiGH+a8LO7vZluuORCYZwijSZwqzXbw9PpN+kduOZPXVoegc5rCfSwZ3NFw2
+Nr0MQBEZ
+=syd2
+-----END PGP SIGNATURE-----

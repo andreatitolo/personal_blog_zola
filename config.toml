@@ -1,0 +1,52 @@
+base_url = "https://www.archaeoramblings.com"
+title = "Archaeoramblings"
+description = "Just random stuff from a random archaeologist"
+default_language = "en"
+author = "Andrea Titolo"
+output_dir = "public"
+compile_sass = false
+generate_feed = true
+feed_filename = "atom.xml"
+build_search_index = false
+taxonomies = [
+    { name = "tags", feed = true, paginate_by = 25 },
+]
+[slugify]
+paths_keep_dates = true
+[markdown]
+highlight_code = true
+highlight_theme = "zenburn"
+[extra]
+email = "298mtxjd@anonaddy.me"
+avatar = "img/avatar.webp"
+images_default_size = 720
+images_sizes = [300, 600]
+header_items = [
+    { url = "/about/", name = "About" },
+    { url = "/blog/", name = "Blog" },
+    { url = "/bookmarks/", name = "Bookmarks" },
+    { url = "/contact/", name = "Contact" },
+    { url = "/more/", name = "More.." }
+]
+footer_items = [
+    { url = "/now/", name = "Now" },
+    { url = "/uses/", name = "Uses" },
+    { url = "/links/", name = "Blogroll" },
+    { url = "/metrics/", name = "Colophon" },
+    { url = "/credits/", name = "Credits" },
+    { url = "/tags/", name = "Tags" },
+    { url = "/atom.xml", name = "RSS" }
+]
+webrings = [
+    { link = "https://fediring.net/", name = "Fediring", prev = "previous?host=", next = "previous?host=", random = "true"},
+    { link = "https://webring.archaeo.social/", name = "Archaeoring", prev = "previous?host=", next = "previous?host=", random = "true"},
+]
+buttons = [
+    { path = "/img/buttons/", title = "Kiwix"}
+]
+[extra.favicon]
+favicon_16x16 = "/img/favicons/android-chrome-192x192.png"
+favicon_32x32 = "/img/favicons/android-chrome-512x512.png"
+apple_touch_icon = "/img/favicons/apple-touch-icon.png"
+safari_pinned_tab = "/img/favicons/safari-pinned-tab.svg"
+webmanifest = "/img/favicons/site.webmanifest"

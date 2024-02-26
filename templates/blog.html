@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<article>
+  <h1>
+  {{ section.title }}
+  </h1>
+  {{ section.content | safe }}
+  <h2>List of posts</h2>
+  {% for year, pages in section.pages | group_by(attribute="year") %}
+  <h3>{{ year }}</h3>
+  <ul class="postlist">
+    {% for page in pages %}
+  <li class="postlist-item">
+    <time class="postlist-date" datetime="{{ page.date }}">{{ page.date | date(format="%d-%m-%Y") }}</time>
+    <a href="{{ page.permalink | safe }}" class="postlist-link">{{ page.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</article>
+{% endblock content %}

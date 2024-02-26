@@ -1,0 +1,178 @@
+:root {
+    --bgColor: #fff;
+    --fgColor: #333;
+    --fgColorFaded: #999;
+    --fgColorLighter: #f4f4f4;
+    --borderColor: #EEE;
+    --radius: 4px;
+    --maxWidth: 1380px;
+    --linkColor: #006ed7;
+    --linkColorFaded: rgba(0, 110, 215, 0.09);
+    --linkTextColor: #ffffff;
+    --linkLightColor: #118AFE;
+  }
+  
+  html {
+    max-height: 100%;
+    overflow: auto;
+  }
+  body {
+    margin: 3em;
+    background-color: var(--bgColor);
+    font-size: 1em;
+    line-height: 1.5;
+    color: var(--fgColor);
+  }
+
+  body > nav {
+    padding: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: var(--fgColorLighter);
+    max-width: var(--maxWidth);
+    border-radius: 20px;
+  }
+  
+  /* Defining the main Grid */
+  main > ul {
+    display: grid;
+    margin: 0 auto;
+    max-width: var(--maxWidth);
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    padding-inline-start: 0 !important;
+  }
+  main > ul > li {
+    list-style-type: none;
+    background-color: var(--bgColor);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  main > ul > li div {
+    overflow: hidden;
+    max-height: 505px;
+  }
+  
+  /* The blue area in top */
+  main > header {
+    background: var(--linkColorFaded);
+    border-radius: var(--radius);
+    padding: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  main > h2 {
+    text-align: center;
+  }
+  
+  /* Custom treatment for ul and li elements and it's children */
+  main > header h1 {
+    color: var(--fgColor);
+  }
+  p {
+    margin-block-start: 0;
+  }
+  main > ul:not(.nested) > li > h3 {
+    font-size: 1.5em;
+    color: var(--fgColor);
+    margin: 0;
+    padding: 0 0 0.5em 0;
+    line-height: 1.2;
+  }
+  main > ul:not(.nested) > li > h3 a,
+  main > ul:not(.nested) > li > h3 > a,
+  main > footer a {
+    color: var(--linkColor);
+  }
+  main > ul:not(.nested) > li > h3 > a {
+    text-decoration: none;
+  }
+  main > ul:not(.nested) > li > h3 > a:visited {
+    color: var(--fgColorFaded);
+    text-decoration: underline;
+  }
+  main > ul:not(.nested) > li > h3 > a[href]:hover,
+  main > ul:not(.nested) > li > h3 > a[href]:focus {
+    text-decoration: underline;
+  }
+  main > ul:not(.nested) > li > h3 > p > small {
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  main > ul:not(.nested) > li > time {
+    display: flex;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    color: var(--fgColorFaded);
+  }
+  main > ul:not(.nested) > li {
+    font-size: 0.9em;
+    line-height: 1.6;
+    word-break: break-word;
+    border: 1px solid var(--borderColor);
+  }
+  
+  
+  /* The strange OPML stuff */
+  main > ul.nested, main > ul.nested ul {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+  }
+  main > ul.nested ul {
+    margin: 0 0 0 1em;
+  }
+  main > ul.nested li {
+    display: block;
+    margin: 1em;
+    padding: 0.5em;
+    background: var(--linkColorFaded);
+    border-radius: var(--radius);
+  }
+  main > ul.nested li > h2 {
+    display: table;
+    margin: 0;
+    padding: 0.5em;
+    max-width: 29em;
+  }
+  main > ul.nested li > h2 label {
+    cursor: pointer;
+  }
+  main > ul.nested li > a {
+    display: table;
+  }
+  main > ul.nested li > a[hreflang]:not([hreflang=""])::after {
+    content: "(" attr(hreflang) ")";
+    margin-left: 0.5em;
+    font-size: 0.8em;
+  }
+  main > ul.nested li > time {
+    display: block;
+    font-size: smaller;
+    color: var(--fgColor);
+  }
+  main > ul > * {
+    border-radius: var(--radius);
+    padding: 20px;
+    font-size: 100%;
+  }
+  
+  
+  /* header and footer specific styling */
+  main > header,
+  main > footer {
+    text-align: center;
+    margin: 0 auto;
+    max-width: var(--maxWidth);
+    flex: 0 1 100%;
+    grid-column: 1 / -1;
+  }
+  main > footer {
+    padding-top: 3em;
+  }

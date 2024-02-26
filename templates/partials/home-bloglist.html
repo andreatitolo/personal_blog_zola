@@ -1,0 +1,19 @@
+{% set blogs = get_section(path="blog/_index.md") %}
+{% set limit = 4 %}
+<article>
+	<h2>Latest {{ limit }} Posts </h2>
+	<ol class="postlist">
+	{% for page in blogs.pages | slice(end=limit) %}
+		<li class="postlist-item">
+    		<time class="postlist-date" datetime="{{ page.date }}">{{ page.date | date(format="%d-%m-%Y") }}</time>
+    		<a href="{{ page.permalink | safe }}" class="postlist-link">{{ page.title }}</a>
+			{# {% if loop.index == 1 %}<img src="{{ get_url(path="img/new10.gif", trailing_slash=false) }}" alt="New Post!">{% endif %}  #}
+    	</li>
+	{% endfor %}
+	</ol>
+	{% if blogs.pages | length > limit %}
+	<nav class="pagination">
+		<p> {{blogs.pages | length - limit }} more posts can be found in <a href="/blog/">the archive</a>.</p></p>
+	</nav>
+</article>
+{% endif %}

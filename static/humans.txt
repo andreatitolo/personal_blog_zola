@@ -1,0 +1,9 @@
+/* TEAM */
+Site Owner: Andrea Titolo
+Site: 298mtxjd@anonaddy.me
+Fediverse: @andreatitolo@archaeo.social
+
+/* SITE */
+Created in: 2023
+Software: Powered by getzola.org
+Other: No Ads, No Javascript, No tracker

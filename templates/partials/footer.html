@@ -1,0 +1,16 @@
+<footer>
+    <div class="header-container">
+        <nav class="menu">
+            <ul class="nav">
+                {% set menu_items = config.extra.footer_items -%}
+                {% for item in menu_items -%}
+                <li class="nav-item">
+                    <a href="{{ config.base_url ~ item.url  }}" 
+                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
+                    </a>
+                </li>
+                {% endfor -%}
+            </ul>
+        </nav>
+    </div>
+</footer>
