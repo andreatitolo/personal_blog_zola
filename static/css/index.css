@@ -586,6 +586,10 @@ del:hover {
   color: #c6d0f5;
 }
 
+.article-home {
+  border-top: 1px solid var(--border);
+}
+
 /* Classes for notices */
 .notice {
   background: var(--accent-bg);
