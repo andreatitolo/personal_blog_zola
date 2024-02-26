@@ -32,6 +32,7 @@
     background-color: var(--fgColorLighter);
     max-width: var(--maxWidth);
     border-radius: 20px;
+    margin: 0 auto 2em;
   }
   
   /* Defining the main Grid */

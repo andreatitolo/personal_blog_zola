@@ -8,4 +8,4 @@ title = "More links"
 - [Disclaimer](/disclaimer/)
 - [Privacy & License](/privacy/)
 - [Site info - Colophon](/metrics/)
-- Follow the blog - [RSS](/feed/feed.xml) 
+- Follow the blog - [RSS](/atom.xml) 
