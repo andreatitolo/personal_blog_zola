@@ -620,17 +620,12 @@ del:hover {
 .postlist li {
   align-items: center;
   display: flex;
-  /* justify-content: space-between; */
   padding: 0.7rem 0;
-  margin-bottom: 1rem;
-  border: 2px dashed var(--accent-bg);
-  background-color: var(--accent-bg);
-  border-radius: 15px;
+  /* border-bottom: 1px solid var(--accent-bg); */
 }
 
 .postlist li time {
-  padding-right: 1.5rem;
-  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 0.8125em;
   color: var(--border);
   font-style: italic;
