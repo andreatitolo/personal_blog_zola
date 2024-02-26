@@ -18,14 +18,14 @@ ZOLA_VERSION = "0.18.0"
       preload
     '''
     Content-Security-Policy = '''
-      default-src 'self' https://*.poetic-blancmange-a64617;
-      style-src 'self' https://*.poetic-blancmange-a64617 'unsafe-inline' data:;
-      img-src 'self' https://*.poetic-blancmange-a64617 'unsafe-inline' data:;
-      script-src 'self' https://*.poetic-blancmange-a64617 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net cdnjs.cloudflare.com cdn.mathjax.org;
-      frame-src 'self' https://*.poetic-blancmange-a64617;
-	    connect-src 'self' https://*.poetic-blancmange-a64617;
-	    base-uri 'self' https://*.poetic-blancmange-a64617;
-	    form-action 'self' https://*.poetic-blancmange-a64617;
+      default-src 'self' https://*.poetic-blancmange-a64617.netlify.app;
+      style-src 'self' https://*.poetic-blancmange-a64617.netlify.app 'unsafe-inline' data:;
+      img-src 'self' https://*.poetic-blancmange-a64617.netlify.app 'unsafe-inline' data:;
+      script-src 'self' https://*.poetic-blancmange-a64617.netlify.app 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net cdnjs.cloudflare.com cdn.mathjax.org;
+      frame-src 'self' https://*.poetic-blancmange-a64617.netlify.app;
+	    connect-src 'self' https://*.poetic-blancmange-a64617.netlify.app;
+	    base-uri 'self' https://*.poetic-blancmange-a64617.netlify.app;
+	    form-action 'self' https://*.poetic-blancmange-a64617.netlify.app;
       font-src 'self' data:
     '''
     Permissions-Policy = '''
