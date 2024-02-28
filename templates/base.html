@@ -8,7 +8,7 @@
   <title>{{ config.title }}</title>
   <meta name="description" content="{{ config.description }}">
   {% if current_url %}
-  <link rel="canonical" href="{{ current_url | default(value='/') }}" />
+  <link rel="canonical" href="{{ current_url | default(value='/') }}">
   {% endif %}
 
   {% block favicons %}
