@@ -1,10 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
 <h1> {{ page.title }}</h1>
-<h3><i>{{ page.description }}</i></h3>
+<h2><i>{{ page.description }}</i></h2>
 <article>
   {{ page.content | safe }}
   <hr>
+  {% for type, blogs in page.extra.blogs | group_by(attribute="type") %}
+  {% if type == "reading" %}
+    <h2>Reading</h2>
+    <p>These are websites I follow and read on a consistent basis.</p>
+  {% elif type == "new" %}
+    <h2>Other blogs</h2>
+    <p>These are websites that I haven't had the chance to read much about yet, or that I only read occasionally.</p>
+  {% elif type == "website" %}
+    <h2>Websites</h2>
+    <p>These are non-personal websites that I found useful/nice-looking.</p>
+  {% endif %}
   <table>
     <thead>
         <tr>
@@ -13,7 +24,7 @@
         </tr>
     </thead>
     <tbody>
-        {% for blog in page.extra.blogs | sort(attribute = "name") %}
+        {% for blog in  blogs | sort(attribute = "name") %}
             <tr>
                 <td><a href="{{ blog.url }}">{{ blog.name }}</a></td>
                 <td>{{ blog.comment }}</td>
@@ -21,5 +32,6 @@
         {% endfor %}
     </tbody>
   </table>
+    {% endfor %}
 </article>
 {% endblock content %}
