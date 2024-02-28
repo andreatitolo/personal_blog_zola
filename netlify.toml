@@ -5,6 +5,11 @@ command = "zola build"
 [build.environment]
 ZOLA_VERSION = "0.18.0"
 
+[[redirects]]
+from = "/feed/feed.xml"
+to = "/atom.xml"
+status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
