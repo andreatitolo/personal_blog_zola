@@ -36,7 +36,7 @@ footer_items = [
     { url = "/metrics/", name = "Colophon" },
     { url = "/credits/", name = "Credits" },
     { url = "/tags/", name = "Tags" },
-    { url = "/atom.xml", name = "RSS" }
+    { url = "/rss", name = "RSS" }
 ]
 webrings = [
     { link = "https://fediring.net/", name = "Fediring", prev = "previous?host=", next = "previous?host=", random = "true"},
