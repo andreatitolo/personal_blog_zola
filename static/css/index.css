@@ -642,6 +642,11 @@ del:hover {
   font-size: 1.4rem;
 }
 
+.postlist li a:hover {
+  background: none;
+  color: var(--text-color-postlink-hover);
+} 
+
 .postlist li img {
   margin-left: auto;
   margin-right: auto;
