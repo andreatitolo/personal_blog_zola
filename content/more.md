@@ -2,7 +2,7 @@
 title = "More links"
 +++
 
-- [Archive](/blog/)
+- [Ideas](/ideas/)
 - [Now](/now/)
 - [Blogroll](/links/)
 - [Disclaimer](/disclaimer/)
