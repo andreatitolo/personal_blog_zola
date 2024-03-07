@@ -10,6 +10,11 @@ from = "/feed/feed.xml"
 to = "/atom.xml"
 status = 301
 
+[[redirects]]
+from = "/feed/feed.json"
+to = "/atom.xml"
+status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
