@@ -24,6 +24,10 @@
   {% endif %}
   {{ page.content | safe }}
 </article>
+<div class="post-footer">
+	<a class="button reply button-shadow" href="mailto:{{ config.extra.email }}?subject=Reply to: {{ page.title }}">Reply by email</a>
+</div>
+<div align="right"><a href="#top">Back to top</a></div>
 {% if page.lower or page.higher %}
     <nav class="page-nav">
     {% if page.higher %}
