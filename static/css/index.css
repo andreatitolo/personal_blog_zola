@@ -294,6 +294,7 @@ input[type="button"]:enabled:hover,
 label[type="button"]:hover {
   /* filter: brightness(1.4); */
   background-color: var(--text-color-link-hover);
+  border-color: var(--text-color-postlink-hover);
   cursor: pointer;
 }
 
@@ -484,6 +485,104 @@ table caption {
   margin-bottom: 0.5rem;
 }
 
+/* Format forms */
+textarea,
+select,
+input,
+button,
+.button {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: var(--standard-border-radius);
+  box-shadow: none;
+  max-width: 100%;
+  display: inline-block;
+}
+textarea,
+select,
+input {
+  color: var(--text);
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+}
+label {
+  display: block;
+}
+textarea:not([cols]) {
+  width: 100%;
+}
+
+/* checkbox and radio button style */
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: middle;
+  position: relative;
+  width: min-content;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  display: inline-block;
+}
+
+input[type="radio"] {
+  border-radius: 100%;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background-color: var(--accent);
+}
+
+input[type="checkbox"]:checked::after {
+  /* Creates a rectangle with colored right and bottom borders which is rotated to look like a check mark */
+  content: " ";
+  width: 0.18em;
+  height: 0.32em;
+  border-radius: 0;
+  position: absolute;
+  top: 0.05em;
+  left: 0.17em;
+  background-color: transparent;
+  border-right: solid var(--accent-bg) 0.08em;
+  border-bottom: solid var(--accent-bg) 0.08em;
+  font-size: 1.8em;
+  transform: rotate(45deg);
+}
+input[type="radio"]:checked::after {
+  /* creates a colored circle for the checked radio button  */
+  content: " ";
+  width: 0.25em;
+  height: 0.25em;
+  border-radius: 100%;
+  position: absolute;
+  top: 0.125em;
+  background-color: var(--accent);
+  left: 0.125em;
+  font-size: 32px;
+}
+
+/* Makes input fields wider on smaller screens */
+@media only screen and (max-width: 720px) {
+  textarea,
+  select,
+  input {
+    width: 100%;
+  }
+}
+
+/* Set a height for color input */
+input[type="color"] {
+  height: 2.5rem;
+  padding:  0.2rem;
+}
+
+/* do not show border around file selector button */
+input[type="file"] {
+  border: 0;
+}
 
 /* Misc body elements */
 hr {
@@ -729,7 +828,7 @@ a[href].zola-anchor:focus,
 
 .post-footer {
   text-align: center;
-  margin: 4rem 0 1.5rem 0;
+  margin: 4rem 0 1rem 0;
 }
 
 .reply {
