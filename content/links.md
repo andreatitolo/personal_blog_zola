@@ -35,7 +35,11 @@ blogs = [
     {name = "Joel Chrono", url = "https://joelchrono.xyz/", feed = "", comment = "A nice website I enjoy reading and exploring", type = "reading"},
     {name = "Ali Reza Hayati", url = "https://alirezahayati.com/", feed = "", comment = "", type = "reading"},
     {name = "Silvia Maggi", url = "https://silviamaggidesign.com/", feed = "", comment = "", type = "reading"},
-    {name = "Yokogao", url = "https://www.yokogaomag.com/", feed = "", comment = "Nice website about less-known (to me) japanese cultuer", type = "website"},
+    {name = "Yokogao", url = "https://www.yokogaomag.com/", feed = "", comment = "Nice website about less-known (to me) japanese culture", type = "website"},
+    {name = "Aftermath", url = "https://aftermath.site/", feed = "", comment = "The only gaming news website that does content and don't create drama over random reddit posts", type = "website"},
+    {name = "ahwx.org", url = "https://ahwx.org/", feed = "", comment = "One of the maintainer of LibreY, always interesting stuff and a very nice person to interact with.", type = "reading"},
+    {name = "Jasmine's Journal", url = "https://jasm1nii.xyz/", feed = "", comment = "Super nice and relaxing design", type = "website"},
+    {name = "Ploum.net", url = "https://ploum.net/", feed = "", comment = "Lots of interesting reads about the web, fediverse, and free software", type = "reading"},
 ]
 +++
 
