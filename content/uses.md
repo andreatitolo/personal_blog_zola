@@ -131,6 +131,7 @@ Manually assembled PC:
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - hardened with [Arkenfox](https://github.com/arkenfox/user.js) for better privacy.
 - [Vivaldi](https://vivaldi.com/) - for website where it's more convenient to stay logged and when I need to keep tabs opened.
+- [Lynx](https://lynx.invisible-island.net/lynx.html) for occasional website testings.
 - ~~[Orion](https://browser.kagi.com/) - as a more private alternative to Safari, for some webistes that breaks with Arkenfox. Using it very little as today~~.
 
 ### Browser Extensions
