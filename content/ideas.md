@@ -23,16 +23,15 @@ This page is a list of things I implemented or I want to implement in the future
 - [x] [More page](/more)
 - [x] Light/Dark Theme (based on system preferences)
 - [x] Favicons
-- [x] Participate at least once in the indieweb carnival [this post](/blog/digital-relationships-with-our-past/)
+- [x] Participate at least once in the indieweb carnival ([this post](/blog/digital-relationships-with-our-past/))
 - [x] `rel=me` links for social profiles (mastodon)
-- [x] License
+- [x] [License](/privacy#license)
 - [x] [Accessibility](/metrics#accessibility) and [markup](/metrics#code) check
 - [x] [Tags](/tags)
 
 # To be implemented at some point
 
 - [ ] 88x31 Buttons
-- [ ] Changelog page (this would make sense only if showed on the homepage somehow)
 - [ ] More webrings
 - [ ] Join the indieweb
 - [ ] Webmentions (not hosted on the site tough)
@@ -42,17 +41,18 @@ This page is a list of things I implemented or I want to implement in the future
 # Maybe
 
 - [ ] Guestbook (External, not hosted on this site)
-- [ ] Add some sort of videogames backlog and read books?
-- [ ] Notes? (Microblogging might be better for this)
+- [ ] Personal manifesto (this is something I really want to do, I just need to find the time to sit and avoid venting only)
 - [ ] Categories
 - [ ] New layout? Holy grail-like?
-- [ ] Change-log (makes sense only if shown on the frontpage, otherwise the forgejo repo does the job)
+- [ ] Changelog (makes sense only if shown on the frontpage, otherwise the forgejo repo does the job)
+- [ ] Add some sort of videogames backlog and read books?
+- [ ] Notes? (Microblogging might be better for this)
 - [ ] Search (only without javascript, maybe with DuckDuckGo? anyway there is not much here to justify the effort in a search)
 
 # Will not do
 
-- [ ] Analytics (I really don't care)
-- [ ] Statistics (I really don't care)
-- [ ] Donations (this is not a commercial venture)
-- [ ] Comments (too much effort, probably require javascript, use the email)
+- Analytics (I really don't care)
+- Statistics (I really don't care)
+- Donations (this is not a commercial venture)
+- Comments (too much effort, probably require javascript, use the email)
 
