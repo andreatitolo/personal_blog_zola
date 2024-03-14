@@ -953,3 +953,12 @@ a[href].zola-anchor:focus,
   color: var(--text);
   transition: var(--transition);
 }
+
+#buttons-container {
+  margin: 0;
+  padding: 0;
+}
+
+#buttons-container p > a:hover {
+  background: none;
+}
