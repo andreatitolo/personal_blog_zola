@@ -40,6 +40,7 @@ blogs = [
     {name = "ahwx.org", url = "https://ahwx.org/", feed = "https://blog.ahwx.org/rss", comment = "One of the maintainer of LibreY, always interesting stuff and a very nice person to interact with.", type = "reading"},
     {name = "Jasmine's Journal", url = "https://jasm1nii.xyz/", feed = "https://jasm1nii.xyz/feeds", comment = "Super nice and relaxing design", type = "new"},
     {name = "Ploum.net", url = "https://ploum.net/", feed = "https://ploum.net/atom_en.xml", comment = "Lots of interesting reads about the web, fediverse, and free software", type = "reading"},
+    {name = "OhHelloAna", url = "https://ohhelloana.blog", feed = "https://ohhelloana.blog/feed.xml", comment = "I love the website style and content is very interesting", type = "reading"},
 ]
 +++
 
