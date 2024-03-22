@@ -37,6 +37,7 @@ This page is a list of things I implemented or I want to implement in the future
 - [ ] Webmentions (not hosted on the site tough)
 - [ ] Indieweb.txt
 - [ ] Add "not by AI" button
+- [ ] Style the feed with the same color palette as the website
 
 # Maybe
 
