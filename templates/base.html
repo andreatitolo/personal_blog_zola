@@ -12,8 +12,11 @@
   {% endif %}
 
   {% block favicons %}
-    {% if config.extra.favicon.webmanifest %}
-    <link  rel="manifest" href='{{ config.extra.favicon.webmanifest }}'>
+    {% if config.extra.favicon.favicon_ico %}
+    <link  rel="icon" href='{{ config.extra.favicon.favicon_ico }}' sizes="any">
+    {% endif %}
+    {% if config.extra.favicon.favicon_svg %}
+    <link  rel="icon" href='{{ config.extra.favicon.favicon_svg }}' type="image/svg+xml">
     {% endif %}
     {% if config.extra.favicon.safari_pinned_tab %}
     <link rel="mask-icon" color="#5bbad5" href='{{ config.extra.favicon.safari_pinned_tab }}'>
@@ -26,6 +29,9 @@
     {% endif %}
     {% if config.extra.favicon.apple_touch_icon %}
     <link rel="apple-touch-icon" sizes="180x180" href='{{ config.extra.favicon.apple_touch_icon }}'>
+    {% endif %}
+    {% if config.extra.favicon.webmanifest %}
+    <link  rel="manifest" href='{{ config.extra.favicon.webmanifest }}'>
     {% endif %}
   {% endblock %}
 

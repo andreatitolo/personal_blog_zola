@@ -46,6 +46,8 @@ buttons = [
     { path = "/img/buttons/", title = "Kiwix"}
 ]
 [extra.favicon]
+favicon_ico = "img/favicons/favicon.ico"
+favicon_svg = "img/favicons/icon.svg"
 favicon_16x16 = "/img/favicons/android-chrome-192x192.png"
 favicon_32x32 = "/img/favicons/android-chrome-512x512.png"
 apple_touch_icon = "/img/favicons/apple-touch-icon.png"
