@@ -10,4 +10,4 @@ There are three different RSS feed available on this blog (all of them are also 
 - Feed for [blog posts only](/blog/atom.xml).
 - Feed for [bookmarks only]((/bookmarks/atom.xml)).
 
-All feeds follow the Atom standard, so you'll get the whole content of each post without needing to make additional requests or to open the website.
+All feeds follow the [Atom standard](https://en.wikipedia.org/wiki/Atom_(web_standard)?lang=en&lang=simple), so you'll get the whole content of each post without needing to make additional requests or to open the website.
