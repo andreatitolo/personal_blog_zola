@@ -26,7 +26,7 @@
     <tbody>
         {% for blog in  blogs | sort(attribute = "name") %}
             <tr>
-                <td><a href="{{ blog.url }}">{{ blog.name }}</a></td>
+                <td><a href="{{ blog.url }}">{{ blog.name }}</a>{%- if blog.feed %} <a href="{{ blog.feed }}" target="_blank" title="Follow {{ blog.name }} with your feed reader"><img src="/svg/rss.svg" alt="RSS vector icon"></a> {% endif -%}</td>
                 <td>{{ blog.comment }}</td>
             </tr>
         {% endfor %}
