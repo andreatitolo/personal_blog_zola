@@ -10,11 +10,13 @@
 	{%- endfor %}
 </ul>
 <p>Original Post &rarr; <a href="{{page.extra.url}}">{{page.extra.url}}</a></p>
+{%- if page.content %}
 <hr>
 <article>
     <h2>Personal comment</h2>
     {{ page.content | safe }}
 </article>
+{% endif %}
 {% if page.lower or page.higher %}
     <nav class="page-nav">
     {% if page.higher %}
