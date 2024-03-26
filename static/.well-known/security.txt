@@ -4,7 +4,7 @@ Hash: SHA256
 Policy: If any vulnerabilities are found related to site code or configuration, please contact me.
 
 Contact: https://archaeo.social/@andreatitolo
-Contact: mailto:mail@andreatitolo.com
+Contact: mailto:298mtxjd@anonaddy.me
 
 Encryption: https://archaeoramblings.com/files/pubkey.txt
 
