@@ -4,7 +4,9 @@ title = "About"
 
 I am Andrea (he/him), an archaeologist with a lot (maybe too many) interests. 
 
-{{ image(src="about.webp" alt="A half-body picture of Andrea Titolo on a bridge. Colored houses in the background", class = "img-centered") }}
+Go to &rarr; [quick facts](#quick-facts) ~ [about me](#about-me) ~ [about work](#about-the-work) ~ [about the site](#about-this-site) ~ [small web](#small-web)
+
+{{ image(src="about2.webp" alt="A half-body picture of Andrea Titolo on a bridge. Colored houses in the background", class = "img-avatar", width_override = 200) }}
 
 ## Quick facts
 
@@ -75,7 +77,7 @@ If you have a button, let me know! I will happily add it below.
 
 ### People
 
-[![starbreaker.org](buttons/starbreaker.gif)](https://starbreaker.org)
+[![starbreaker.org](buttons/starbreaker.avif)](https://starbreaker.org)
 [![daudix](buttons/daudix.gif)](https://daudix.codeberg.page)
 [![serimemo](buttons/MdRjyyV.png)](https://astral.town/)
 [![getimiskon's space](buttons/badge-2.png)](https://getimiskon.xyz)
@@ -106,3 +108,5 @@ If you have a button, let me know! I will happily add it below.
 [![a proud member of 250kb club](buttons/250kb_simple_badge_dark.png)](https://250kb.club/www-archaeoramblings-com/)
 
 </section>
+
+[Back to top](#quick-facts)
