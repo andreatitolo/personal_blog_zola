@@ -15,7 +15,12 @@ taxonomies = [
 paths_keep_dates = true
 [markdown]
 highlight_code = true
-highlight_theme = "zenburn"
+extra_syntaxes_and_themes = ["highlight_themes/catppuccin"]
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "catppuccin_latte", filename = "css/syntax-theme-dark.css" },
+  { theme = "catppuccin_frappe", filename = "css/syntax-theme-light.css" },
+]
 [extra]
 email = "298mtxjd@anonaddy.me"
 avatar = "img/avatar.webp"

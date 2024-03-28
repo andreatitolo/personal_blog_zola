@@ -1,5 +1,11 @@
 {% extends "base.html" %}
-
+{% block css %}
+    <link rel="stylesheet" href="{{ get_url(path="css/index.css", trailing_slash=false) }}">
+    {% if config.markdown.highlight_code and config.markdown.highlight_theme == "css" %}
+    <link rel="stylesheet" type="text/css" href="{{ get_url(path="css/syntax-theme-dark.css", trailing_slash=false) }}" media="(prefers-color-scheme: dark)" />
+    <link rel="stylesheet" type="text/css" href="{{ get_url(path="css/syntax-theme-light.css", trailing_slash=false) }}" media="(prefers-color-scheme: light)" />
+  {% endif %}
+{% endblock %}
 {% block content %}
 <h1>
   {{ page.title }}
