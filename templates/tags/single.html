@@ -1,7 +1,7 @@
 {% extends "index.html" %}
 
 {% block content %}
-    <h1>Tagged "{{ term.name }}"</h1>
+    <h1>Tagged “{{ term.name }}”</h1>
     {% for page in term.pages %}
         <ul class="taxonomy">
             <li class="taxonomy-item">
@@ -10,4 +10,5 @@
                 </li>
         </ul>
     {% endfor %}
+    <p>See <a href="/tags">all Tags</a></p>.
 {% endblock content %}
