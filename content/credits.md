@@ -20,3 +20,5 @@ As of March 2024, this blog uses [Zola](https://getzola.org) as SSG, and while t
 [Vincent Prouillet](https://github.com/Keats) (aka Keats) for creating Zola and for the [Even theme](https://getzola.github.io/even), which inspired the taxonomies single page template and style. 
 
 [Marco Neumann](https://crepererum.net/) for this [image shortcode](https://gitlab.com/crepererum/blog/-/blob/master/templates/shortcodes/image.html?ref_type=heads) that I adapted to my needs (you can see it in [the forgejo repo](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola/src/branch/main/templates/shortcodes/image.html)).
+
+[Bat's catppuccin themes](https://github.com/catppuccin/bat/tree/main/themes) for the textmate themes used for code syntax highlight here.
