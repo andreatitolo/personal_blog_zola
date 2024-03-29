@@ -882,10 +882,11 @@ a[href].zola-anchor:focus,
   text-decoration: none;
 }
 .taxonomies-list a:hover {
-  color: var(--accent);
+  background: var(--text-color-postlink-hover);
+  color: var(--accent-bg);
 }
 .taxonomies-list a:active {
-  background: var(--bg-darker);
+  background: var(--accent);
   transform: scale(0.96);
 }
 
