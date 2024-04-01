@@ -61,9 +61,9 @@ As many people of my age, I tried most social networks. It was a good ride at th
 
 I recently rediscovered this beauty, they are amazing!
 
-Here is my button, feel free to add it to your site, and if you do send me an [email](mailto:298mtxjd@anonaddy.me) or ping me [somewhere else](/contact).
+Here are my buttons, feel free to add it to your site, and if you do send me an [email](mailto:298mtxjd@anonaddy.me) or ping me [somewhere else](/contact).
 
-![alt](buttons/archaeoramblings.gif)
+![archaeoramblings gif](buttons/archaeoramblings.gif) ![archaeoramblings static button](buttons/archaeoramblings2.gif)
 
 ```html
 <a href="https://www.archaeoramblings.com" target="_blank"><img src="https://www.archaeoramblings.com/about/buttons/archaeoramblings.gif"></a>
