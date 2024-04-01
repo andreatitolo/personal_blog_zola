@@ -826,6 +826,10 @@ a[href].zola-anchor:focus,
   margin-right: auto;
 }
 
+.img-border {
+  border: 2px solid var(--border);
+}
+
 .img-avatar {
   max-width: 100%;
   display: block;
