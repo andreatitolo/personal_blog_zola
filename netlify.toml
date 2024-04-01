@@ -28,15 +28,14 @@ status = 301
       preload
     '''
     Content-Security-Policy = '''
-      default-src 'self' https://*.poetic-blancmange-a64617.netlify.app;
-      style-src 'self' https://*.poetic-blancmange-a64617.netlify.app 'unsafe-inline' data:;
-      img-src 'self' https://*.poetic-blancmange-a64617.netlify.app 'unsafe-inline' data:;
-      script-src 'self' https://*.poetic-blancmange-a64617.netlify.app 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net cdnjs.cloudflare.com cdn.mathjax.org;
-      frame-src 'self' https://*.poetic-blancmange-a64617.netlify.app;
-	    connect-src 'self' https://*.poetic-blancmange-a64617.netlify.app;
-	    base-uri 'self' https://*.poetic-blancmange-a64617.netlify.app;
-	    form-action 'self' https://*.poetic-blancmange-a64617.netlify.app;
-      font-src 'self' data:
+      default-src 'self' https://*.archaeoramblings.com;
+      style-src 'self' https://*.archaeoramblings.com 'unsafe-inline';
+      img-src 'self' https://*.archaeoramblings.com nonbot.org;
+      script-src 'self' https://*.archaeoramblings.com;
+      frame-src 'self' https://*.archaeoramblings.com;
+	  connect-src 'self' https://*.archaeoramblings.com;
+	  base-uri 'self' https://*.archaeoramblings.com;
+	  form-action 'self' https://*.archaeoramblings.com
     '''
     Permissions-Policy = '''
       accelerometer=(),
