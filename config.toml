@@ -1,4 +1,4 @@
-base_url = "https://poetic-blancmange-a64617.netlify.app"
+base_url = "https://www.archaeoramblings.com"
 title = "Archaeoramblings"
 description = "Just random stuff from a random archaeologist"
 default_language = "en"
@@ -8,6 +8,7 @@ compile_sass = false
 generate_feed = true
 feed_filename = "atom.xml"
 build_search_index = false
+minify_html = false
 taxonomies = [
     { name = "tags", feed = true, paginate_by = 25 },
 ]
