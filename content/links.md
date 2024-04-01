@@ -33,7 +33,7 @@ blogs = [
     {name = "Search my Site", url = "https://searchmysite.net/", feed = "", comment = "An independent search engine focusing on small web, personal websites, and digital gardens", type = "website"},
     {name = "Small Technology Foundation", url = "https://small-tech.org/", feed = "https://small-tech.org/index.xml", comment = "Two amazing persons advocating for the small web and person-focused technology", type = "website"},
     {name = "Joel Chrono", url = "https://joelchrono.xyz/", feed = "https://joelchrono.xyz/feed.xml", comment = "A nice website I enjoy reading and exploring", type = "reading"},
-    {name = "Ali Reza Hayati", url = "https://alirezahayati.com/", feed = "https://alirezahayati.com/feed/", comment = "", type = "reading"},
+    {name = "Ali Reza Hayati", url = "https://alirezahayati.com/", feed = "https://alirezahayati.com/feed/", comment = "Always interesting takes, I especially like the posts about social media and privacy", type = "reading"},
     {name = "Silvia Maggi", url = "https://silviamaggidesign.com/", feed = "https://silviamaggidesign.com/feed.xml", comment = "", type = "reading"},
     {name = "Yokogao", url = "https://www.yokogaomag.com/", feed = "", comment = "Nice website about less-known (to me) japanese culture", type = "website"},
     {name = "Aftermath", url = "https://aftermath.site/", feed = "https://aftermath.site/feed", comment = "The only gaming news website that does content and don't create drama over random reddit posts", type = "website"},
