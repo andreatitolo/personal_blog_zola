@@ -24,7 +24,7 @@ Manually assembled PC:
 
 ### Peripherals
 
-- ~~[Logitech MX Master 3](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006556.html)~~ [Logitech MX Vertical](https://www.logitech.com/en/products/mice/mx-vertical-ergonomic-mouse.html) - as mouse for work.
+- <s>[Logitech MX Master 3](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006556.html)</s> [Logitech MX Vertical](https://www.logitech.com/en/products/mice/mx-vertical-ergonomic-mouse.html) - as mouse for work.
 - [Logitech G305](https://www.logitechg.com/en-us/products/gaming-mice/g305-lightspeed-wireless-gaming-mouse.910-005280.html) - as mouse for gaming.
 - [Nuphy Air 75](https://nuphy.com/products/air75) - a main low profile mechanical keyboard.
 - [Sennheiser HD559](https://www.sennheiser-hearing.com/it-IT/p/hd-559/) - as headphones.
@@ -43,7 +43,7 @@ Manually assembled PC:
 
 ### Writing
 
-- ~~[MarkText](https://github.com/marktext/marktext)~~ [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) - for shorter individual markdown files.
+- <s>[MarkText](https://github.com/marktext/marktext)</s> [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) - for shorter individual markdown files.
 - [Quarto](https://quarto.org/) (in VSCodium) - for everything from text to presentations.
 - [Libreoffice](https://www.libreoffice.org/) - for doc and csv files.
 - [Onlyoffice](https://www.onlyoffice.com/) - because LO is still a pain to use on MacOS with larger documents.
@@ -59,12 +59,12 @@ Manually assembled PC:
 ### Coding
 
 - [VSCodium](https://vscodium.com/) - as my main IDE.
-- ~~[ITerm2](https://iterm2.com/)~~ ~~[Kitty](https://sw.kovidgoyal.net/kitty/)~~ [WezTerm](https://wezfurlong.org/wezterm/) - as terminal emulator (with [Victor Mono Nerd Font](https://www.programmingfonts.org/#victor-mono)).
-- ~~[Z shell](https://www.zsh.org/) (+ ~~Oh My Zsh~~ [Zap](https://github.com/zap-zsh/zap) as plugin manager for some plugins)~~ [Fish](https://fishshell.com/) shell + [Fisher](https://github.com/jorgebucaran/fisher) for very few plugins.
-- ~~[Fig.io](https://fig.io/) - for interactive command suggestions~~.
+- <s>[ITerm2](https://iterm2.com/)</s> <s>[Kitty](https://sw.kovidgoyal.net/kitty/)</s> [WezTerm](https://wezfurlong.org/wezterm/) - as terminal emulator (with [Victor Mono Nerd Font](https://www.programmingfonts.org/#victor-mono)).
+- <s>[Z shell](https://www.zsh.org/) (+ Oh My Zsh [Zap](https://github.com/zap-zsh/zap) as plugin manager for some plugins)</s> [Fish](https://fishshell.com/) shell + [Fisher](https://github.com/jorgebucaran/fisher) for very few plugins.
+- <s>[Fig.io](https://fig.io/) - for interactive command suggestions.</s>
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) - to quickly open a terminal at a specific folder location.
 - [Homebrew](https://brew.sh/) - as my package manager.
-- ~~[BBEdit](https://www.barebones.com/products/bbedit/)~~ [Sublime Text](https://www.sublimetext.com/) - as a quick text editor.
+- <s>[BBEdit](https://www.barebones.com/products/bbedit/)</s> [Sublime Text](https://www.sublimetext.com/) - as a quick text editor.
 - [Helix](https://helix-editor.com/) - as a quick terminal text editor
 - [R](https://www.r-project.org/) (in VSCodium) - as main coding language.
 
@@ -101,7 +101,7 @@ Manually assembled PC:
 - [svgo](https://github.com/svg/svgo) - to quickly optimize svg from the command line. I've posted my config [here](https://www.archaeoramblings.com/blog/rebuilding-my-academic-website-with-zola/#svg-icons).
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - to easily download online videos.
 - [Startpage](https://startpage.com) - as main search engine
-- ~~[LibreY](https://github.com/hnhx/librex/) - as backup search engine (using [this instance](https://search.ahwx.org))~~ Self-hosted [SearXNG](https://github.com/searxng/searxng) for backup and personal use.
+- <s>[LibreY](https://github.com/hnhx/librex/) - as backup search engine (using [this instance](https://search.ahwx.org))</s> Self-hosted [SearXNG](https://github.com/searxng/searxng) for backup and personal use.
 
 ### Management
 
@@ -109,7 +109,7 @@ Manually assembled PC:
 - [Obsidian](https://obsidian.md/) - for personal tracking of movies/tv-shows.
 - [Todo.txt](https://github.com/todotxt/todo.txt) - methodology for todo lists.
 - [Pter](https://vonshednob.cc/pter/) - CLI tool for managing todo.txt.
-- ~~[MountainDuck](https://mountainduck.io/) - for mounting cloud storage as local. drives~~ Still in search of a satisfying option.
+- <s>[MountainDuck](https://mountainduck.io/) - for mounting cloud storage as local drives</s> Still in search of a satisfying option.
 - [Raycast](https://www.raycast.com/) - to replace default Spotlight.
 - [Alfred](https://www.alfredapp.com/) - to replace default Spotlight + some workflows.
 - [Jabref](https://www.jabref.org/) - to manage my references and academic papers.
@@ -121,7 +121,7 @@ Manually assembled PC:
 
 ### Reading
 
-- ~~[Feedbin](https://feedbin.com/)~~ [Miniflux](https://miniflux.app/) - to manage my rss feeds.
+- <s>[Feedbin](https://feedbin.com/)</s> [Miniflux](https://miniflux.app/) - to manage my rss feeds.
 - [Netnewswire](https://netnewswire.com/) - to read rss feeds through Miniflux. [Read why](https://inessential.com/2023/02/20/on_not_taking_money_for_netnewswire).
 - Kindle Paperwhite - for reading ebooks (to be replaced sooner or later).
 - [Calibre](https://calibre-ebook.com/) - to transfer ebook to the e-reader.
@@ -132,7 +132,7 @@ Manually assembled PC:
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - hardened with [Arkenfox](https://github.com/arkenfox/user.js) for better privacy.
 - [Vivaldi](https://vivaldi.com/) - for website where it's more convenient to stay logged and when I need to keep tabs opened.
 - [Lynx](https://lynx.invisible-island.net/lynx.html) for occasional website testings.
-- ~~[Orion](https://browser.kagi.com/) - as a more private alternative to Safari, for some webistes that breaks with Arkenfox. Using it very little as today~~.
+- <s>[Orion](https://browser.kagi.com/) - as a more private alternative to Safari, for some webistes that breaks with Arkenfox. Using it very little as today.</s>
 
 ### Browser Extensions
 
@@ -153,7 +153,7 @@ Manually assembled PC:
 - [Reeder5](https://reederapp.com/) - to read feeds through Miniflux.
 - [Overcast](https://overcast.fm/) - to manage and listen podcasts subscriptions.
 - [Wireguard](https://www.wireguard.com/) - as VPN tunnel (to make Mullvad and NextDNS to work well in tandem).
-- ~~[RaivoOTP](https://raivo-otp.com/)~~ [2FAS Auth](https://2fas.com/)- to manage my 2FA codes.
+- <s>[RaivoOTP](https://raivo-otp.com/)</s> [2FAS Auth](https://2fas.com/)- to manage my 2FA codes.
 - [Strongbox](https://strongboxsafe.com/) - to manage my password using KeepassXC.
-- ~~[2Do-txt](https://github.com/sodenn/2do-txt) - gui app for todo.txt.~~
+- <s>[2Do-txt](https://github.com/sodenn/2do-txt) - gui app for todo.txt.</s>
 - [Mobius Sync](https://www.mobiussync.com/) - to use Syncthing in iOS.
