@@ -1,6 +1,6 @@
 +++
 title = "Colophon"
-updated = "2024-02-19"
+updated = "2024-04-02"
 +++
 
 
@@ -18,8 +18,8 @@ This site uses the following:
 - Markdown
 - HTML ([Validated](https://validator.w3.org/nu/?doc=https://www.archaeoramblings.com/))
 - CSS ([Validated](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fwww.archaeoramblings.com&usermedium=all&vextwarning=&warning=1) - inspired by [Simple CSS](https://simplecss.org/))
-- RSS ([Validated](https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fwww.archaeoramblings.com))
-- [Code Repository on Github](https://github.com/andreatitolo/11ty_blog)
+- Atom Feed ([Validated](https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fwww.archaeoramblings.com%2Fatom.xml))
+- [Code Repository on Forgejo](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola) - mirrored on [Github](https://github.com/andreatitolo/personal_blog_zola)
 - Hosted on Netlify
 
 ### Fonts and visuals
@@ -33,11 +33,12 @@ This site uses the following:
 
 ## Sustainability
 
-- [Lighthouse Report](https://pagespeed.web.dev/analysis/https-www-archaeoramblings-com/6wpwy9vn6z?form_factor=desktop)
-- Homepage loads in 0.8 seconds and weights less than 20kb (uncompressed).
-- Site uncompressed size is 18.7kb.
+- [Lighthouse Report](https://pagespeed.web.dev/analysis/https-www-archaeoramblings-com/r4agmfw2bb?form_factor=desktop)
+- Homepage loads in 0.3 seconds and [weights less than 10kb](https://yellowlab.tools/result/gtiterb909) (uncompressed).
+- Site uncompressed size is 36.68kb.
 - 0.00g of CO2 [produced every time someone visits this web page](https://www.websitecarbon.com/website/archaeoramblings-com/).
-- 100 score on [Ecograder](https://ecograder.com/report/uVJ0MKte3W5ZEqFZRqzyQyz9).
+- 100 score on [Ecograder](https://ecograder.com/report/kPoVa6oinp0dBtYWMwGqXhP1).
+- Hosting runs on [green energy](https://www.thegreenwebfoundation.org/green-web-check/?url=www.archaeoramblings.com)
 
 ## Accessibility
 
