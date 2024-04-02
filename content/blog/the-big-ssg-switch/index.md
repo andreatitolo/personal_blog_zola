@@ -1,6 +1,6 @@
 +++
 title = "The big SSG switch (and other things)"
-date = "2024-03-16"
+date = "2024-04-02"
 draft = false
 [taxonomies]
 tags = ["blog", "zola"]
