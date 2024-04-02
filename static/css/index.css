@@ -726,7 +726,7 @@ del:hover {
 .postlist li time {
   padding-right: 1rem;
   font-size: 0.8125em;
-  color: var(--border);
+  color: var(--text);
   font-style: italic;
 }
 
