@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2024-02-24"
+updated = "2024-04-03"
 +++
 
 Hi! this is a [now page](https://nownownow.com/about). 
@@ -21,18 +21,19 @@ However, I am currently reading (actively):
 
 As with books, I rarely play only one videogame at the time. 
 Currently I am playing:
-- [Baldurs Gate 3](https://thegamesdb.net/game.php?id=69037) 
+- [Baldurs Gate 3](https://thegamesdb.net/game.php?id=69037) - on hold
 - [Ni No Kuni: Wrath of the White Witch](https://thegamesdb.net/game.php?id=66426) (this is a completely new genre for me)
+- [Stardew Valley](https://thegamesdb.net/game.php?id=35320)
 
 ## Watching
 
-- [Hazbin Hotel](https://www.themoviedb.org/tv/94954-hazbin-hotel)
+- [The Rookie](https://www.themoviedb.org/tv/79744-the-rookie)
+- [Shogun](https://www.themoviedb.org/tv/126308-shogun)
 - [Bad Batch](https://www.themoviedb.org/tv/105971-star-wars-the-bad-batch)
 
 ## Learning
 
-I am trying to learn webdev and strengthening my skills in HTML, CSS and Javascript.
-Sooner or later I need to make peace with the fact that I want to learn Vim too.
+Diving deeper into [kart](https://kartproject.org/) and git for an upcoming paper I am writing (and maybe a couple of blog posts here). Alongside this, deepening understanding of [Quarto Manuscripts](https://quarto.org/docs/manuscripts/).
 
 ## Work
 
