@@ -974,3 +974,15 @@ a[href].zola-anchor:focus,
 #buttons-container p > a:hover {
   background: none;
 }
+
+.badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 0;
+  column-gap: var(--navspacer-large);
+}
