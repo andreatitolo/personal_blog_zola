@@ -28,15 +28,15 @@ This page is a list of things I implemented or I want to implement in the future
 - [License](/privacy#license)
 - [Accessibility](/metrics#accessibility) and [markup](/metrics#code) check
 - [Tags](/tags)
+- 88x31 Buttons
+- Add "not by AI" button
 
 ## <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="circle_svg__feather circle_svg__feather-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg> To be implemented at some point
 
-- 88x31 Buttons
 - More webrings
 - Join the indieweb
 - Webmentions (not hosted on the site tough)
 - Indieweb.txt
-- Add "not by AI" button
 - Style the feed with the same color palette as the website
 
 ## <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="help-circle_svg__feather help-circle_svg__feather-help-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3m.08 4h.01"/></svg> Maybe
