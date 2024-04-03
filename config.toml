@@ -47,7 +47,7 @@ footer_items = [
 webrings = [
     { url = "https://fediring.net/", name = "Fediring", prev = "previous?host=", next = "next?host=", random = "true",  slug = "archaeoramblings.com"},
     { url = "https://webring.archaeo.social/", name = "Archaeoring", prev = "previous?host=", next = "next?host=", random = "true", slug = "archaeoramblings.com"},
-    { url = "https://webring.dinhe.net/", name = "Retronaut", prev = "prev/", next = "next/", random = "false", slug = "https://www.archaeoramblings.com"},
+    { url = "https://webring.dinhe.net/", name = "Retronaut", prev = "prev/", next = "next/", random = "false", slug = "https://www.archaeoramblings.com/"},
 ]
 [extra.favicon]
 favicon_ico = "/img/favicons/favicon.ico"
