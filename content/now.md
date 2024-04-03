@@ -38,3 +38,5 @@ Diving deeper into [kart](https://kartproject.org/) and git for an upcoming pape
 ## Work
 
 Currently at the University of Turin as Post-doctoral research associate.
+
+Also preparing for an archaeological survey, yay!
