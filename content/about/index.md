@@ -104,6 +104,7 @@ If you have a button, let me know! I will happily add it below.
 [![email](buttons/email.gif)](mailto:298mtxjd@anonaddy.me)
 [![fediring](buttons/fediring.gif)](https://fediring.net/)
 [![archaeoring](buttons/archaeoring_button2.png)](https://webring.archaeo.social/)
+[![italian webring](buttons/italia.png)](https://itawebring.altervista.org/)
 [![proud member of the green team of 512KB club](buttons/512kb-green-team-new.gif)](https://512kb.club/)
 [![a proud member of 250kb club](buttons/250kb_simple_badge_dark.png)](https://250kb.club/www-archaeoramblings-com/)
 
