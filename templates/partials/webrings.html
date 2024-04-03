@@ -1,0 +1,7 @@
+{% for ring in config.extra.webrings %}
+    <p>
+        <a href="{{ring.url}}{{ring.prev}}{{ring.slug}}">&larr;</a>
+        <a href="{{ring.url}}">{{ring.name}}</a> {% if ring.random == "true" %} | <a href="{{ring.url}}random">Random</a> {% endif %}
+        <a href="{{ring.url}}{{ring.next}}{{ring.slug}}">&rarr;</a>
+    </p>
+{% endfor %}
