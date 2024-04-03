@@ -12,7 +12,7 @@
     <h2>Badges</h2>
     <ul class="badges">
         {% for badge in page.extra.badges %}
-            <li><a href="{{ badge.url }}" target="_blank"></a><img src="{{ badge.path }}" alt="{{ badge.alt }}"></li>
+            <li><a href="{{ badge.url }}" target="_blank"><img src="{{ badge.path }}" alt="{{ badge.alt }}"></a></li>
         {% endfor %}
     </ul>
 </article>
