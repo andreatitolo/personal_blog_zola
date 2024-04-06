@@ -6,7 +6,7 @@ I am Andrea (he/him), an archaeologist with a lot (maybe too many) interests.
 
 Go to &rarr; [quick facts](#quick-facts) ~ [about me](#about-me) ~ [about work](#about-the-work) ~ [about the site](#about-this-site) ~ [small web](#small-web)
 
-{{ image(src="about2.webp" alt="A half-body picture of Andrea Titolo on a bridge. Colored houses in the background", class = "img-avatar", width_override = 200) }}
+{{ image(src="about.webp" alt="A half-body picture of Andrea Titolo on a bridge. Colored houses in the background", class = "img-avatar", width_override = 200) }}
 
 ## Quick facts
 
