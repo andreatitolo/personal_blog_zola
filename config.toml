@@ -45,10 +45,11 @@ footer_items = [
     { url = "/rss", name = "RSS" }
 ]
 webrings = [
-    { url = "https://fediring.net/", name = "Fediring", prev = "previous?host=", next = "next?host=", random = "true",  slug = "archaeoramblings.com", random_slug = "random"},
-    { url = "https://webring.archaeo.social/", name = "Archaeoring", prev = "previous?host=", next = "next?host=", random = "true", slug = "archaeoramblings.com", random_slug = "random"},
-    { url = "https://webring.dinhe.net/", name = "Retronaut", prev = "prev/", next = "next/", random = "false", slug = "https://www.archaeoramblings.com/"},
-    { url = "https://itawebring.altervista.org/", name = "Itawebring", prev = "anello?d=prev&url=", next = "anello?d=next&url=", random = "true", slug = "https://www.archaeoramblings.com/", random_slug = "anello?d=rand"},
+    { url = "https://fediring.net/", name = "Fediring", prev = "previous?host=", next = "next?host=", random = "true",  slug = "archaeoramblings.com", random_slug = "random", use_slug = "true"},
+    { url = "https://webring.archaeo.social/", name = "Archaeoring", prev = "previous?host=", next = "next?host=", random = "true", slug = "archaeoramblings.com", random_slug = "random", use_slug = "true"},
+    { url = "https://webring.dinhe.net/", name = "Retronaut", prev = "prev/", next = "next/", random = "false", slug = "https://www.archaeoramblings.com/", use_slug = "true"},
+    { url = "https://itawebring.altervista.org/", name = "Itawebring", prev = "anello?d=prev&url=", next = "anello?d=next&url=", random = "true", slug = "https://www.archaeoramblings.com/", use_slug = "true", random_slug = "anello?d=rand"},
+    { url = "https://geekring.net/", name = "Geekring", prev = "site/371/previous", next = "site/371/next", random = "true", slug = "https://www.archaeoramblings.com/", use_slug = "false", random_slug = "site/371/random"},
 ]
 [extra.favicon]
 favicon_ico = "/img/favicons/favicon.ico"
