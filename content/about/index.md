@@ -84,8 +84,10 @@ If you have a button, let me know! I will happily add it below.
 
 ### Others
 
+[![standwithpalestine](buttons/standwith.png)](https://hillhouse.neocities.org/journal/notes/palestine)
 [![kiwix](buttons/kiwix.gif)](https://kiwix.org/en/)
 [![internetarchive](buttons/internetarchive.gif)](https://archive.org/)
+[![internetarchive](buttons/webarchive.gif)](https://archive.org/)
 [![tor](buttons/tor.gif)](https://www.torproject.org/)
 [![firefox](buttons/firefox3.gif)](https://www.mozilla.org/en-US/firefox/new/)
 ![anythingbutchrome](buttons/anythingbut.gif)
@@ -97,6 +99,7 @@ If you have a button, let me know! I will happily add it below.
 ![no cookies](buttons/nocookie.gif)
 [![Viewable with any browser](buttons/abglobe.gif)](https://anybrowser.org/campaign/index.html)
 ![made on a mac](buttons/macbutton.gif)
+[![made with VSCodium](buttons/made-with-vscodium.gif)](https://vscodium.com/)
 [![valid css](buttons/valid-css-blue.gif)](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fwww.archaeoramblings.com&usermedium=all&vextwarning=&warning=1)
 [![valid html](buttons/html5-validator-badge-blue.gif)](https://validator.w3.org/nu/?doc=https://www.archaeoramblings.com/)
 [![valid atom](buttons/valid-atom.gif)](https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fwww.archaeoramblings.com)
