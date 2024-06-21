@@ -2,6 +2,7 @@
 title = "Rebuilding my academic website with Zola"
 description = "Goodbye rstudio/blogdown/hugo stack!"
 date = "2024-02-17"
+updated = "2024-06-21"
 draft = false
 [taxonomies]
 tags = [ "academic website", "zola", "webdev" ]
@@ -10,6 +11,8 @@ toc_set = 1
 +++
 
 Yep, it's one of those blog posts. However, **this is not a guide**, I think it would be beneficial if there were more guides for Zola, but that's a thing for another time. The redesigned website is available at the old url: [https://www.andreatitolo.com](https://www.andreatitolo.com).
+
+**Update 2024-06-21**: I deprecated my VPS, so the things described in the [New Forge](#new-forge) chapter are not totally true anymore regarding VPS and hosting, but the part about push mirrors, netlify and such are still valid.
 
 **TLDR**
 - I wanted to change my bloated academic website and move away from the hugo/academic/blogdown stack.
@@ -140,7 +143,9 @@ I don't really need JavaScript on a static site, especially on an academic site.
 
 ### New forge
 
-While the code of the original website was on GitHub ([and still is](https://github.com/andreatitolo/andreatitolo_web)), I am recently moving more and more away from GitHub as much, for [many](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) [reasons](https://nogithub.codeberg.page). I am also trying out selfhosting (yay!), I have a Hetzner VPS with [Yunohost](https://yunohost.org/#/), and I wanted to have my own git forge. So you can find the code of the website on [Forgejo](https://archaeo.cc/forgejo/andreatitolo/academic_website_zola). Changing this in Netlify was a breeze thanks to the instruction [provided on their docs](https://docs.netlify.com/git/repo-permissions-linking/#change-linked-git-repository). A caveat to this is explained [later on](#deploying-to-netlify-with-a-self-hosted-forge).
+While the code of the original website was on GitHub ([and still is](https://github.com/andreatitolo/andreatitolo_web)), I am recently moving more and more away from GitHub as much, for [many](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) [reasons](https://nogithub.codeberg.page). I am also trying out selfhosting (yay!), I have a Hetzner VPS with [Yunohost](https://yunohost.org/#/), and I wanted to have my own git forge. So you can find the code of the website on [Forgejo](https://codeberg.org/titoloandrea/academic_website_zola). Changing this in Netlify was a breeze thanks to the instruction [provided on their docs](https://docs.netlify.com/git/repo-permissions-linking/#change-linked-git-repository). A caveat to this is explained [later on](#deploying-to-netlify-with-a-self-hosted-forge).
+
+**Update 2024-06-21**: I ended up deprecating my self-hosted instance (mainly for cutting costs), so the code of the website is now on [Codeberg](https://codeberg.org/titoloandrea/academic_website_zola). 
 
 ### Robots.txt
 
@@ -206,7 +211,7 @@ We all know [cool URIs don't change](https://www.w3.org/Provider/Style/URI), and
 I used [Netlify redirects](https://docs.netlify.com/routing/redirects/) (server-side) declared in the netlify.toml file. This option should be more performant and if in the future I'll switch _ssg_ again I should probably not worry about that at least. 
 I used [Zola aliases](https://www.getzola.org/documentation/content/page/) for URLs that changed completely. To apply the filename format I prefer I put an `aliases` option in each page frontmatter for Talks. This results in a correct redirect to the new `date-event` format, instead of the old  `file slug` path (which usually resulted in huge URLs).
 
-I made other changes that can be inspected in the [netlify.toml](https://archaeo.cc/forgejo/andreatitolo/academic_website_zola/src/branch/main/netlify.toml) file. I am checking for broken links and will keep an updated list of (hopefully none/few) broken links and reference that in the 404 page.
+I made other changes that can be inspected in the [netlify.toml](https://codeberg.org/titoloandrea/academic_website_zola/src/branch/main/netlify.toml) file. I am checking for broken links and will keep an updated list of (hopefully none/few) broken links and reference that in the 404 page.
 
 ### Deploying to Netlify with a Self-hosted Forge
 
