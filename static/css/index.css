@@ -768,7 +768,7 @@ del:hover {
   font-size: 1.15rem;
 }
 .post-metadata time {
-	margin-right: 1em;
+	/* margin-right: 1em; */
   font-style: italic;;
 }
 

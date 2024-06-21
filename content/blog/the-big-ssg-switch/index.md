@@ -2,6 +2,7 @@
 title = "The big SSG switch (and other things)"
 date = "2024-04-02"
 draft = false
+updated = "2024-06-21"
 [taxonomies]
 tags = ["blog", "zola"]
 +++
@@ -11,7 +12,7 @@ tags = ["blog", "zola"]
 I [already spoke](/blog/rebuilding-my-academic-website-with-zola#zola) about how I was sold on Zola as my SSG of choice. For the past month or so I have been switching SSG from Eleventy. It's been a slow process not much because of the difficulties, but mostly because I had very little time to dedicate to this website recently.
 I won't list here the reasons for the change, because I already highlighted them in the post linked above. I will just briefly speak about the switch and all the new things that I have added to the website in the meantime.
 
-In general, switching from 11ty to Zola was quite easy: apart from changing all YAML frontmatters to TOML, other things that needed an adjustment were stuff implemented by 11ty through plugins, e.g. image optimization, rss feed, styling markdown anchors etc. Most of these things are offered by Zola out-of-the-box, while for the image optimization I took [this shortcode](https://gitlab.com/crepererum/blog/-/blob/master/templates/shortcodes/image.html?ref_type=heads) and adapted a little bit for my need. Other things are implemented through Zola templates, for example [anchor link](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola/src/branch/main/templates/anchor-link.html), [atom feed](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola/src/branch/main/templates/atom.xml), [table of contents](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola/src/branch/main/templates/partials/toc.html). There were other changes under the hood, but quite some time has passed and I forgot.
+In general, switching from 11ty to Zola was quite easy: apart from changing all YAML frontmatters to TOML, other things that needed an adjustment were stuff implemented by 11ty through plugins, e.g. image optimization, rss feed, styling markdown anchors etc. Most of these things are offered by Zola out-of-the-box, while for the image optimization I took [this shortcode](https://gitlab.com/crepererum/blog/-/blob/master/templates/shortcodes/image.html?ref_type=heads) and adapted a little bit for my need. Other things are implemented through Zola templates, for example [anchor link](https://codeberg.org/titoloandrea/personal_blog_zola/src/branch/main/templates/anchor-link.html), [atom feed](https://codeberg.org/titoloandrea/personal_blog_zola/src/branch/main/templates/atom.xml), [table of contents](https://codeberg.org/titoloandrea/personal_blog_zola/src/branch/main/templates/partials/toc.html). There were other changes under the hood, but quite some time has passed and I forgot.
 
 I have been reading a lot of other people blogs, about the small web, the indieweb, and so on. I really liked what I saw, and decided to implement some of these things and rework others.
 
@@ -39,9 +40,9 @@ A TLDR of the changes:
 - Refreshed [tags](/tags) and tag pages, inspired by [Even theme](https://getzola.github.io/even) and [Zola Papermod](https://cydave.github.io/zola-theme-papermod/) themes
 - Updated [robots.txt](/robots.txt) to block all the AI scrapers (thanks to [https://darkvisitors.com](https://darkvisitors.com))
 - Implemented catppuccin syntax higlight as [custom syntax highlight theme](https://www.getzola.org/documentation/content/syntax-highlighting/#custom-highlighting-themes) (thanks to [bat's catppuccin themes](https://github.com/catppuccin/bat/tree/main/themes))
-- A new [image shortcode](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola/src/branch/main/templates/shortcodes/image.html) to replace the 11ty image plugin, adapted by the one made by [Marco Neumann](https://gitlab.com/crepererum/blog/-/blob/master/templates/shortcodes/image.html?ref_type=heads).
+- A new [image shortcode](https://codeberg.org/titoloandrea/personal_blog_zola/src/branch/main/templates/shortcodes/image.html) to replace the 11ty image plugin, adapted by the one made by [Marco Neumann](https://gitlab.com/crepererum/blog/-/blob/master/templates/shortcodes/image.html?ref_type=heads).
 - No more rss feed (only atom feed), but different types of feeds in the [feed page](/rss)
-- Source code is now on a self-hosted Forgejo instance, and only mirrored on Github for Netlify automated builds
+- Source code is now on a self-hosted Forgejo instance, and only mirrored on Github for Netlify automated builds (**Update 2024-06-21**: I deprecated my self-hosted instance, and the code is now on [Codeberg](https://codeberg.org/titoloandrea/personal_blog_zola))
 
 ## Description and (few) screenshots
 
@@ -53,7 +54,7 @@ The thing I like about these changes is that the blog feels more alive and "in l
 
 Another things I really came to love are 88x31 buttons, I was considering to put them in the homepage, but I did not want to bloat it too much. Instead, I just put a link to it. I also created [my own buttons](/about#buttons)! feel free to use it and link it to this website (please don't hotlink).
 
-The blogroll rework is also something I really enjoyed. The table layout was inspired by a past iteration of [Starbreaker](https://starbreaker.org) website. Now instead of just a bullet points there is an organized list of links in a table format, with rss feed links and a short description. The table is built from a [TOML array](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola/raw/branch/main/content/links.md) with the help of a [template](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola/src/branch/main/templates/blogroll.html). Probably not the more optimal solution (and definitely not the most readable) but I wanted to see if it could be done.
+The blogroll rework is also something I really enjoyed. The table layout was inspired by a past iteration of [Starbreaker](https://starbreaker.org) website. Now instead of just a bullet points there is an organized list of links in a table format, with rss feed links and a short description. The table is built from a [TOML array](https://codeberg.org/titoloandrea/personal_blog_zola/raw/branch/main/content/links.md) with the help of a [template](https://codeberg.org/titoloandrea/personal_blog_zola/src/branch/main/templates/blogroll.html). Probably not the more optimal solution (and definitely not the most readable) but I wanted to see if it could be done.
 
 {{ image(src="blogroll-old.webp" alt="Old blogroll style", class = "img-centered img-border", width_override = 300, caption = "Old blogroll style", loading = "lazy") }}
 

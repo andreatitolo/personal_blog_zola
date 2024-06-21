@@ -11,7 +11,12 @@
 <h3><i>{{ page.description }}</i></h3>
 
 <ul class="post-metadata">
-	<li>Posted on: <time datetime="{{ page.date }}">{{ page.date | date(format="%-d %B %Y") }}</time></li>
+	<li>Posted on: 
+        <time datetime="{{ page.date }}">{{ page.date | date(format="%-d %B %Y") }}</time>
+    </li>
+    {% if page.updated %}
+    <li>(Updated: {{ page.updated }})</li>
+    {% endif %}
 	Tags:{%- for tag in page.taxonomies.tags %}
 	<li><a href="{{ get_taxonomy_url(kind="tags", name=tag) }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
 	{%- endfor %}

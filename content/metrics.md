@@ -26,7 +26,7 @@ This site uses the following:
 - HTML ([Validated](https://validator.w3.org/nu/?doc=https://www.archaeoramblings.com/))
 - CSS ([Validated](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fwww.archaeoramblings.com&usermedium=all&vextwarning=&warning=1) - inspired by [Simple CSS](https://simplecss.org/))
 - Atom Feed ([Validated](https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fwww.archaeoramblings.com%2Fatom.xml))
-- [Code Repository on Forgejo](https://archaeo.cc/forgejo/andreatitolo/personal_blog_zola) - mirrored on [Github](https://github.com/andreatitolo/personal_blog_zola)
+- [Code Repository on Codeberg](https://codeberg.org/titoloandrea/personal_blog_zola) - mirrored on [Github](https://github.com/andreatitolo/personal_blog_zola)
 - Hosted on Netlify
 
 ### Fonts and visuals
