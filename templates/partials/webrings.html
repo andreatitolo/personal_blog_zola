@@ -1,8 +1,12 @@
-{% for ring in config.extra.webrings %}
-{% if ring.use_slug == "true" %} {% set slug = ring.slug %} {% else %} {% set slug = "" %} {% endif %}
-    <p>
-        <a href="{{ring.url}}{{ring.prev}}{{slug}}">&larr;</a>
-        <a href="{{ring.url}}">{{ring.name}}</a> {% if ring.random == "true" %} | <a href="{{ring.url}}{{ring.random_slug}}">Random</a> {% endif %}
-        <a href="{{ring.url}}{{ring.next}}{{slug}}">&rarr;</a>
-    </p>
-{% endfor %}
+<section class="webrings-list">
+    <ul>
+    {% for ring in config.extra.webrings %}
+    {% if ring.use_slug == "true" %} {% set slug = ring.slug %} {% else %} {% set slug = "" %} {% endif %}
+     <li>
+         <a href="{{ring.url}}{{ring.prev}}{{slug}}">&larr;</a>
+         <a href="{{ring.url}}">{{ring.name}}</a> {% if ring.random == "true" %} | <a href="{{ring.url}}{{ring.random_slug}}">Random</a> {% endif %}
+         <a href="{{ring.url}}{{ring.next}}{{slug}}">&rarr;</a>
+     </li>
+    {% endfor %}
+    </ul>
+</section>

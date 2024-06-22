@@ -986,3 +986,19 @@ a[href].zola-anchor:focus,
   padding-inline-start: 0;
   column-gap: var(--navspacer-large);
 }
+
+.webrings-list {
+  margin: 0;
+  padding: 0;
+}
+
+.webrings-list ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: var(--navspacer-small)
+}
+
+.webrings-list ul li {
+  list-style-type: none;
+}
