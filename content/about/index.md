@@ -110,6 +110,9 @@ If you have a button, let me know! I will happily add it below.
 [![italian webring](buttons/italia.png)](https://itawebring.altervista.org/)
 [![proud member of the green team of 512KB club](buttons/512kb-green-team-new.gif)](https://512kb.club/)
 [![a proud member of 250kb club](buttons/250kb_simple_badge_dark.png)](https://250kb.club/www-archaeoramblings-com/)
+[![Verità per Giulio Regeni](buttons/regeni.gif)](https://www.amnesty.it/campagne/verita-giulio-regeni/)
+[![Unisciti ad ADI!](buttons/button_adi.png)](https://dottorato.it/)
+
 
 </section>
 
