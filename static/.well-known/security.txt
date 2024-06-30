@@ -11,19 +11,20 @@ Encryption: https://archaeoramblings.com/files/pubkey.txt
 Preferred-Languages: en, it
 
 Canonical: https://archaeoramblings.com/.well-known/security.txt
-
-Expires: 2025-01-28T21:59:00.000Z
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEDNUXofhH+8T45WCg9Imqc4NhgTcFAmXcRucACgkQ9Imqc4Nh
-gTfj1AwAiR4CUvfdu/WI+tyAWMxUTH0IfRhXxnWw4bfpUqrk/dTMGxRy9+3X/TtP
-EwOSpF7XaXHWY9y6ZCHfITFdQ93Q5cREL0spaKWPG8pjWoVvPHzkOJsgFfclc+2P
-roqx0/hpT0vPblkvHvzq857q6pWggiiBOKm+HxF184hSN3HpqK3bZ/PFxdJ5JNya
-WpBdED38xvqEtys7FQZnSZO0uGYI7navgf5mCE4u5JuewopThSx0ihUpHin12Zyt
-zXNp9cakdRshKN2dWCBYpLJyrK7QpTnKtX0uzmP0g0+gLzESmZycTgsq2E7XEwpU
-8MfkYl09u5lY2QhOzNSigm5257bpxDdLz6h0t0FBLcSxAT2t9r8QLxdcHSlesOFz
-2recHff+spnUYvm3+NE5DJJXdGtK7pCY5dOTHW/ehFt6p0eCr6TypPtb/LDYRguD
-vZUQfiGH+a8LO7vZluuORCYZwijSZwqzXbw9PpN+kduOZPXVoegc5rCfSwZ3NFw2
-Nr0MQBEZ
-=syd2
+iQJKBAEBCAA0FiEEGtfam7cbcT5TIwuAPlSDyU465KUFAmaBMu4WHG1haWxAYW5k
+cmVhdGl0b2xvLmNvbQAKCRA+VIPJTjrkpVZdD/4qp2yUCyiHShTzfjxox+SFxOer
+50sQp+qQWy3fKrIP7RHVPcBMdAxWErLkZLWKG8UfSvs3hWgAa1UfwEKgSeEiaRBV
+AbIaR7SLFxoNvdJLB56j14hAg+ZWVqcemO4AI9NJIgY82EbwG5Y+bPXQduGvRiSF
+L2D9ikH80Vx0wxQJN86L4Iw2ijKoxZMsPDVRRznU3xmigWUbjlad5DTzRpXzN93y
+m4Q0TpvrYtybaCH6JJ6VJHsIcMmKcu0l7AnM8Vi/0fONx3BX/iKf2NNVD+wme6a2
+Qz6D4BEEmeYBLQ6V15CoHS7co8ciDIDZCFND4L8yo8typWRPC45d6S/0aTXn4Su5
+9J7NsZh+5yUUmUUmRql2Ju9/Rmxt+JjPVP+o7BYtQYjzHWKcasLeualAmqJTvzGS
+Wm4JrkPvMJTEamNME4dDS5UVqPuW1YcfQo1RIUXbyry3KpqyKMk4oNpIRdOp4qYx
+xoBnraC3138TGepfRW7wLtuVatachFxY5eQViJnuKDt3T6ADWuqlHojNxGdBs5qT
+SBb7tUx1UCgpP2Z8OzO3BPvP8jjxfIPJtp655O0qE2f1x33DZLvIuyDhiAR4bebX
+Tk554+dlvpWGBK+l5zRLPDHFvlrEW6tVa/YMEusawQr0CAMUk5QmShQdgrFAb2+l
+qb8ejqxM7q4ehec/FQ==
+=/j9c
 -----END PGP SIGNATURE-----
