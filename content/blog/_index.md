@@ -3,7 +3,7 @@ title = "Blog"
 sort_by = "date"
 template = "blog.html"
 page_template = "blog-page.html"
-generate_feed = true
+generate_feeds = true
 insert_anchor_links = "right"
 +++
 

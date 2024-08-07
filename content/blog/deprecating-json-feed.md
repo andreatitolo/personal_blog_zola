@@ -2,9 +2,12 @@
 title = "Heads-up! deprecating json feed"
 description = "Deprecating one of the two feeds"
 date = "2024-03-07"
+updated = "2024-08-07"
 [taxonomies]
 tags = [ "blog", "rss", "zola" ]
 +++
+
+**Update**: <u>Disregard this post, since using Zola 0.19, both feeds are again available!</u>
 
 In the wave of [rebuilding my academic website in Zola](../rebuilding-my-academic-website-with-zola/), I am doing the same for this blog. I will have a short dedicated post on that (I already speak too much about blog changes), this is just a short notice.
 

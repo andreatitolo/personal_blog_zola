@@ -37,10 +37,13 @@
 
   {% block rss %}
     <link rel="alternate" type="application/atom+xml" title="Archaeoramblings Feed" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+    <link rel="alternate" type="application/rss+xml" title="Archaeoramblings Feed" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
     <link rel="alternate" type="application/atom+xml" title="Blog posts Feed" href="{{ get_url(path="blog/atom.xml", trailing_slash=false) }}">
-    <link rel="alternate" type="application/atom+xml" title="Bookmarks Feed" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+    <link rel="alternate" type="application/rss+xml" title="Blog posts Feed" href="{{ get_url(path="blog/rss.xml", trailing_slash=false) }}">
+    <link rel="alternate" type="application/atom+xml" title="Bookmarks Feed" href="{{ get_url(path="bookmarks/atom.xml", trailing_slash=false) }}">
+    <link rel="alternate" type="application/rss+xml" title="Bookmarks Feed" href="{{ get_url(path="bookmarks/rss.xml", trailing_slash=false) }}">
   {% endblock %}
-    <meta name="generator" content="Zola v.0.18">
+    <meta name="generator" content="Zola v.0.19.1">
   {% block css %}
     <link rel="stylesheet" href="{{ get_url(path="css/index.css", trailing_slash=false) }}">
   {% endblock css %}

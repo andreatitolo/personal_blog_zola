@@ -2,7 +2,7 @@
 title = "The big SSG switch (and other things)"
 date = "2024-04-02"
 draft = false
-updated = "2024-06-21"
+updated = "2024-08-07"
 [taxonomies]
 tags = ["blog", "zola"]
 +++
@@ -41,7 +41,7 @@ A TLDR of the changes:
 - Updated [robots.txt](/robots.txt) to block all the AI scrapers (thanks to [https://darkvisitors.com](https://darkvisitors.com))
 - Implemented catppuccin syntax higlight as [custom syntax highlight theme](https://www.getzola.org/documentation/content/syntax-highlighting/#custom-highlighting-themes) (thanks to [bat's catppuccin themes](https://github.com/catppuccin/bat/tree/main/themes))
 - A new [image shortcode](https://codeberg.org/titoloandrea/personal_blog_zola/src/branch/main/templates/shortcodes/image.html) to replace the 11ty image plugin, adapted by the one made by [Marco Neumann](https://gitlab.com/crepererum/blog/-/blob/master/templates/shortcodes/image.html?ref_type=heads).
-- No more rss feed (only atom feed), but different types of feeds in the [feed page](/rss)
+- <s>No more rss feed (only atom feed), but different types of feeds in the [feed page](/rss)</s> RSS feed are back thanks to the amazing work of [LunarEclipse](https://github.com/getzola/zola/pull/2477)! Different types of feeds are available in the [feed page](/rss)
 - Source code is now on a self-hosted Forgejo instance, and only mirrored on Github for Netlify automated builds (**Update 2024-06-21**: I deprecated my self-hosted instance, and the code is now on [Codeberg](https://codeberg.org/titoloandrea/personal_blog_zola))
 
 ## Description and (few) screenshots

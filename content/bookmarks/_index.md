@@ -3,7 +3,7 @@ title = "Bookmarks"
 sort_by = "date"
 template = "bookmarks.html"
 page_template = "bookmarks-page.html"
-generate_feed = true
+generate_feeds = true
 insert_anchor_links = "right"
 +++
 
