@@ -11,7 +11,7 @@
   <ul class="postlist">
     {% for page in pages %}
   <li class="postlist-item">
-    <time class="postlist-date" datetime="{{ page.date }}">{{ page.date | date(format="%d-%m-%Y") }}</time>
+    <time class="postlist-date" datetime="{{ page.date }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
     <a href="{{ page.permalink | safe }}" class="postlist-link">{{ page.title }}</a>
     </li>
     {% endfor %}
