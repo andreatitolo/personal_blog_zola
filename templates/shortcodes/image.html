@@ -1,47 +1,30 @@
 {# Code from https://gitlab.com/crepererum/blog #}
-{% set abspath = "./" ~ page.path ~ src  %}
-{% set meta = get_image_metadata(path=abspath) %}
-{% set width = meta.width %}
-{% if meta.width_override %}
-    {% set width_override = meta.width_override %}
-{% endif %}
+{% set abs_path = "./" ~ page.path ~ src  %}
+{% set metadata = get_image_metadata(path=abs_path) %}
+{% set width = metadata.width %}
 {% set srcset_list = [] %}
-{% set sizes_list = [] %}
-{% if  meta.caption %}
-    {% set caption = meta.caption %}
-{% endif %}
 {% if  meta.loading %}
     {% set loading = meta.loading %}
 {% endif %}
 
 {% for s in config.extra.images_sizes %}
     {% if width >= s %}
-        {% set resized = resize_image(path=abspath, width=s, op="fit_width") %}
-
-        {% set element = resized.url ~ " " ~ s ~ "w" %}
+        {% set resized_img = resize_image(path=abs_path, width=s, op="fit_width") %}
+        {% set element = resized_img.url ~ " " ~ s ~ "w" %}
         {% set_global srcset_list = srcset_list | concat(with=[element]) %}
-
-        {% set size = "(max-width: " ~ s ~ "px) " ~ s ~ "px" %}
-        {% set_global sizes_list = sizes_list | concat(with=[size]) %}
     {% endif %}
 {% endfor %}
-
-{% if width_override %}
-    {% set default_resized = resize_image(path=abspath, width=width_override, op="fit_width") %}
-{% else %}
-    {% set default_resized = resize_image(path=abspath, width=config.extra.images_default_size, op="fit_width") %}
-{% endif %}
+{% set default_resized_img = resize_image(path=abs_path, width=config.extra.images_default_size, op="fit_width") %}
 
 <figure>
     <img
         alt="{{ alt }}"
-        height="{{ default_resized.height }}"
-        width="{{ default_resized.width }}"
-        src="{{ default_resized.url | safe }}"
+        height="{{ default_resized_img.height }}"
+        width="{{ default_resized_img.width }}"
+        src="{{ default_resized_img.url | safe }}"
         srcset="{{ srcset_list | join(sep=", ") | safe }}"
-        sizes="{{ sizes_list | join(sep=", ") | safe }}"
-        decoding="async"
-        {% if loading is defined %}loading="{{ loading }}" {% else %} loading="lazy" {% endif %}
+        sizes="{{ config.extra.images_sizes_attr }}"
+        {%- if config.markdown.lazy_async_image -%}decoding="async" loading="lazy"{%- endif -%}
         {% if class is defined %}class="{{ class }}"{% endif %}
     >
     {% if caption is defined %}

@@ -28,6 +28,7 @@ avatar = "img/avatar.webp"
 posts_to_show = 3
 images_default_size = 720
 images_sizes = [300, 600]
+images_sizes_attr = "auto, (min-width: 720px) 720px, 100vw"
 header_items = [
     { url = "/about/", name = "About" },
     { url = "/blog/", name = "Blog" },
