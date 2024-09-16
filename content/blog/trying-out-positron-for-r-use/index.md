@@ -11,13 +11,13 @@ Recently the people behind Rstudio/Posit have announced the release of Positron,
 
 Positron is basically Visual Studio Code but tailored for R and Python. I moved away from RStudio a while ago because I found it too sluggish, oldish and not as flexible as I wanted. I am using VSCodium so I am definitely non against using that as a base for something new. 
 
-I did try Positron for a while and I am definitely liking it. There are still things missing (e.g. RStudio addins) but it kind of feels as a nice IDE without needing to setup all the R extensions for VSCode+Radian console. Everything is very fast, plots visualization is way better than both RStudio and VSCode (this is the most painful part of not using RStudio), and viewing data.frame/matrix is a great experience. 
+I did try Positron for a while (I was playing around with the [kairos package](https://cran.r-project.org/web/packages/kairos/index.html)) and I am definitely liking it. There are still things missing (e.g. RStudio addins) but it kind of feels as a nice IDE without needing to setup all the R extensions for VSCode+Radian console. Everything is very fast, plots visualization is way better than both RStudio and VSCode (this is the most painful part of not using RStudio), and viewing data.frame/matrix is a great experience. 
 
-{{ image(src="./positron_general_view.webp" alt="Positron IDE with code and plot visualization", class = "img-centered", caption = "Positron IDE - I was testing out the kairos package by N. Frerebeau ", loading = "lazy") }}
+{{ image(src="positron_general_view.webp" alt="Positron IDE with code and plot visualization", class = "img-centered", caption = "Positron IDE - I was testing out the kairos package by N. Frerebeau ") }}
 
 The `View()` function brings up a nice viewer with the df just as RStudio/VSCode, but with a new pane that provides a list of columns and some summary data about each column. I find the graph visualization a bit confusing (the percentage is the amount of missing data), but the whole idea is quite cool.
 
-{{ image(src="positron_df_view.webp" alt="Positron IDE View with the new data frame viewer", class = "img-centered", caption = "The new dataframe viewer, again using the kairos package as example", loading = "lazy") }}
+{{ image(src="positron_df_view.webp" alt="Positron IDE View with the new data frame viewer", class = "img-centered", caption = "The new dataframe viewer, again using the kairos package as example") }}
 
 All in all, it seems like a nice tool, I would have preferred for them to use the AGPL license (open-source) just as with RStudio, instead of the Elastic license (source-available). But I am a dreamer.
 
