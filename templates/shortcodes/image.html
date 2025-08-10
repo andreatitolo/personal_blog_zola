@@ -2,9 +2,15 @@
 {% set abs_path = "./" ~ page.path ~ src  %}
 {% set metadata = get_image_metadata(path=abs_path) %}
 {% set width = metadata.width %}
+{% if meta.width_override %}		
+    {% set width_override = meta.width_override %}		
+{% endif %}
 {% set srcset_list = [] %}
 {% if  meta.loading %}
     {% set loading = meta.loading %}
+{% endif %}	
+{% if  meta.caption %}		
+    {% set caption = meta.caption %}		
 {% endif %}
 
 {% for s in config.extra.images_sizes %}
@@ -14,7 +20,12 @@
         {% set_global srcset_list = srcset_list | concat(with=[element]) %}
     {% endif %}
 {% endfor %}
-{% set default_resized_img = resize_image(path=abs_path, width=config.extra.images_default_size, op="fit_width") %}
+
+{% if width_override %}		
+    {% set default_resized_img = resize_image(path=abs_path, width=width_override, op="fit_width") %}		
+{% else %}		
+    {% set default_resized_img = resize_image(path=abs_path, width=config.extra.images_default_size, op="fit_width") %}
+{% endif %}
 
 <figure>
     <img
