@@ -20,6 +20,9 @@ Disallow: /
 User-Agent: *
 Disallow: /links/
 
+User-Agent: *
+Disallow: /.well-known/
+
 User-Agent: search.marginalia.nu
 Disallow:
 
