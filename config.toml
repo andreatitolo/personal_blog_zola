@@ -26,8 +26,8 @@ highlight_themes_css = [
 email = "298mtxjd@anonaddy.me"
 avatar = "img/avatar.webp"
 posts_to_show = 3
-images_default_size = 800
-images_sizes = [100, 200, 400, 800, 1200, 1600, 2400, 3200]
+images_default_size = 600
+images_sizes = [800, 1200, 1600, 2400, 3200]
 images_sizes_attr = "auto, (min-width: 800px) 800px, 100vw"
 header_items = [
     { url = "/about/", name = "About" },
